@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
             
             // Prepare the email
-            $to = "your-email@example.com"; // Replace with your email
+            $to = "anais.dubois5@outlook.fr";
             $subject = "New contact message from $name";
             $body = "Name: $name\n";
             $body .= "Age: $age\n";
