@@ -2,6 +2,10 @@ body > h1 {
     text-align: center;
 }
 
+h2.row-title {
+    text-align: center;
+}
+
 body {
     /*background-color: rgb(244, 244, 244);*/
     background-image: url(background1.jpg);
@@ -19,6 +23,7 @@ body {
 ul.hobbies {
     list-style: none;
     padding-left: 0;
+    text-align: center;
 }
 
 ul.skills {
